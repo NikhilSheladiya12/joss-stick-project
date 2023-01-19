@@ -1,0 +1,17 @@
+#order {
+  background: #fbfbfb;
+}
+.order-heading-txt {
+  color: #82718b;
+  margin-bottom: 25px;
+}
+.btn.btn-secondary {
+  float: right;
+  text-align: right;
+  margin-left: auto;
+  background-color: #442944;
+  border-radius: 0px;
+  border-color: #442944;
+  /* padding: 0 20px; */
+  line-height: 1.5;
+}

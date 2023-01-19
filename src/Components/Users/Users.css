@@ -1,0 +1,203 @@
+#users {
+    background: #fbfbfb;
+    padding-left: 136px;
+}
+#users .user-heading-txt {
+    color: #82718b;
+    margin-bottom: 25px;
+}
+.cxcOiE:not(:last-of-type) {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #d3d3d3;
+}
+
+/* for table row  */
+.dwPlXY {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4a0f63 !important;
+    background-color: #FFFFFF;
+    min-height: 55px;
+}
+.dwPlXY {
+    color: #4a0f63 !important;
+    
+}
+
+/* for table head  */
+.iSAVrt {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    background-color: #faf3ff !important;
+    color: #62217c;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    font-size: 13.96px;
+    text-transform: uppercase;
+    min-height: 52px;
+    border-bottom-width: inherit;
+    border-bottom-color: rgba(0,0,0,.12);
+    border-bottom-style: solid;
+}
+i.fa-solid.fa-magnifying-glass {
+    margin: 13px 10px 0 0;
+    color: #4a0f63;
+}
+button.btn.btn-secondary {
+    background-color: #442944;
+    border-radius: 0px;
+    border-color: #442944;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+.form-control {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4a0f63 !important;
+    background-color: #fff;
+    border-color: transparent !important;
+}
+.kDEcCH {
+    padding: 12px 16px !important;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    border-bottom: none;
+}
+/* for table  */
+.sc-hHTYSt.dOIzqm.rdt_TableBody {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    border-top: none;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+}
+.kVrXuC {
+    position: relative;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    color: rgba(0,0,0,0.87);
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #b1b1b1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(254, 251, 255, 0.25);
+}
+
+/* table pagination  */
+.gKbhqU {
+    padding-right: 8px;
+    padding-left: 8px;
+    width: 100%;
+    color: #62217c !important;
+    font-size: 14px;
+    min-height: 56px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-color: #d3d3d3;
+}
+
+/* pagination icon hover */
+.fyrdjl:hover:not(:disabled) {
+    background-color: rgba(197, 72, 219, 0.521) !important;
+}
+
+.fyrdjl:focus {
+    outline: none;
+    background-color: rgb(236 209 241 / 74%) !important;
+}
+
+.jaZsat option {
+    color: #4a0f63 !important;
+}
+
+/* / Extra small devices (phones, 600px and down) / */
+@media only screen and (max-width: 600px) {
+    #users {
+        background: #fbfbfb;
+        padding-left: 0px;
+    }
+    #users .m-5 {
+        margin: 3rem 0 !important;
+    }
+    .kDEcCH {
+        padding: 7px 16px !important;
+        border: 1px solid;
+        border-color: #d3d3d3;
+        border-bottom: none;
+    }
+}
+
+ /* / Small devices (portrait tablets and large phones, 600px and up) / */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    #users .m-5 {
+        margin: 3rem 0 !important;
+    }
+    #users .user-head {
+        width: 99%;
+    }
+    .kDEcCH {
+        padding: 7px 16px !important;
+        border: 1px solid;
+        border-color: #d3d3d3;
+        border-bottom: none;
+    }
+}
+
+ /* / Medium devices (landscape tablets, 768px and up)  / */
+@media only screen and (min-width: 768px) {
+  
+}
+
+ /* / Large devices (laptops / desktops, 992px and up)  / */
+@media only screen and (min-width: 1024px) {
+    #users .m-5 {
+        margin: 3rem 2rem!important;
+    }
+    .kDEcCH {
+        padding: 7px 16px !important;
+        border: 1px solid;
+        border-color: #d3d3d3;
+        border-bottom: none;
+    }
+}
+
+ /* / Extra large devices (large laptops and desktops, 1200px and up)  / */
+@media only screen and (min-width: 1200px) {
+  
+}

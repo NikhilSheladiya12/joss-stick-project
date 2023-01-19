@@ -1,0 +1,20 @@
+.mainDivDashBoard{
+    background-color: #fff;
+}
+.tab-content>.active {
+    display: block;
+}
+.tab-content>.tab-pane {
+    display: none;
+}
+.fade:not(.show) {
+    opacity: 0;
+}
+
+@media (max-width: 576px) {
+    .mainDivDashBoard{
+        background-color: #fff;
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+}

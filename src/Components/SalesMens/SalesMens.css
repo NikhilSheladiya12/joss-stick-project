@@ -1,0 +1,66 @@
+.salesmen-section {
+    background: #fbfbfb;
+}
+.salesmen-heading-part {
+    width: 90%;
+    color: #82718b;
+    margin: 30px auto;
+}
+.salestable-containt {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 24px;
+    background-color: #ffffff;
+}
+.sales-input-search {
+    padding-left: 15px;
+    line-height: 2.3;
+    border: 1px solid;
+    font-size: 15px;
+    color: #212529;
+    background-color: transparent;
+    outline: none !important;
+    border-color: transparent;
+}
+.salesmen-serch-btn {
+    padding: 0 20px;
+    line-height: 1.5;
+    background-color: #442944;
+    border: none;
+    color: #fefefe;
+    font-size: 14.96px;
+    font-weight: 400;
+    cursor: pointer;
+}
+table {
+    background-color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    border-top: none;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%)
+}
+table th {
+    padding: 16px 16px 16px 24px;
+    background-color: #faf3ff;
+    text-transform: uppercase;
+    font-size: .8125rem;
+    font-weight: 600;
+    letter-spacing: .08em;
+    color: #62217c;
+    border-bottom-width: 1px;
+}
+table td {
+    padding: 16px 16px 16px 24px;
+    border-bottom: 1px solid #d3d3d3;
+    color: #4a0f63;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14.96px;
+}

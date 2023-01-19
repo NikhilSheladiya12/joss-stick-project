@@ -1,0 +1,338 @@
+#login .head-containt {
+  min-height: 100%;
+}
+
+#login .form-img-part {
+  background-image: url("../../assets/agrbti.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#login .form-field-part {
+  min-height: 100vh;
+  align-content: center;
+  display: grid;
+  text-align: center;
+  background-color: #fefefe;
+  padding: 50px;
+  position: relative;
+}
+#login .form-heading-txt {
+  color: #82718b;
+  font-weight: 500;
+}
+#login .form-control {
+  border-radius: none !important;
+}
+#login .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #b1b1b1;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(226 227 229 / 25%);
+}
+#login .input-txt {
+  width: 100%;
+  padding: 0 18px;
+  line-height: 2.8;
+  line-height: 3.2;
+  border: 1px solid #b1b1b1 !important;
+  font-size: 17px;
+  border-radius: 0px;
+}
+#login .form-btn {
+  width: 100%;
+  background: #442944;
+  border: none;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+/* otp model  */
+
+#login .popup-main {
+  position: absolute;
+  top: 20%;
+  right: 3%;
+  background: #fefefe;
+  padding: 40px 20px;
+  margin: 10px;
+}
+#login .popup-info {
+  text-align: left;
+  margin-top: -20px;
+  width: 30%;
+  cursor: pointer;
+}
+#login .icon-edit {
+  margin: 0 4px;
+  font-size: 24px;
+}
+#login .form-control-otp {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border: 1px solid #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 5px;
+}
+#login .form-control-otp:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #b1b1b1;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(226 227 229 / 25%);
+}
+#login .popup-btn {
+  width: 100%;
+  background: #442944;
+  border: none;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+#login .popup-heading-txt {
+  color: #82718b;
+  font-weight: 500;
+  margin-bottom: 43px;
+  margin-top: 22px;
+}
+
+/* / Extra small devices (phones, 600px and down) / */
+@media only screen and (max-width: 600px) {
+  #login .form-heading-txt {
+    color: #82718b;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  #login .input-txt {
+    width: 100%;
+    padding: 0 18px;
+    line-height: 2.5;
+    border: 1px solid #b1b1b1 !important;
+    font-size: 16px;
+    border-radius: 0px;
+  }
+  #login .form-btn {
+    width: 100%;
+    background: #442944;
+    border: 1px solid #442944;
+    color: #fefefe;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 2.6;
+    padding: 0 18px;
+  }
+
+  /* otp mpdel  */
+
+  #login .popup-main {
+    width: 90%;
+    position: absolute;
+    top: 13%;
+    background: #fefefe;
+    padding: 40px 40px;
+    margin: 10px;
+  }
+  #login .form-control-otp {
+    width: 28px;
+    height: 30px;
+    margin: 10px 3px;
+    border: 1px solid #b1b1b1;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+  }
+  #login .popup-btn {
+    width: 100%;
+    background: #442944;
+    border: none;
+    color: #fefefe;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 2.6;
+    padding: 0 18px;
+  }
+}
+
+/* / Small devices (portrait tablets and large phones, 600px and up) / */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  #login .form-field-part {
+    min-height: 100vh;
+    align-content: center;
+    display: grid;
+    text-align: center;
+    background-color: #fefefe;
+    padding: 50px 20px;
+    position: relative;
+  }
+  #login .form-heading-txt {
+    color: #82718b;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  #login .input-txt {
+    width: 100%;
+    padding: 0 18px;
+    line-height: 2.5;
+    border: 1px solid #b1b1b1 !important;
+    font-size: 16px;
+    border-radius: 0px;
+  }
+  #login .form-btn {
+    width: 100%;
+    background: #442944;
+    border: 1px solid #442944;
+    color: #fefefe;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 2.6;
+    padding: 0 18px;
+  }
+
+  /* otp model  */
+  #login .popup-main {
+    position: absolute;
+    top: 9%;
+    right: 3%;
+    background: #fefefe;
+    padding: 40px 20px;
+    margin: 10px;
+  }
+  #login .popup-heading-txt {
+    color: #82718b;
+    font-weight: 500;
+    margin-bottom: 43px;
+    margin-top: 22px;
+    font-size: 23px;
+  }
+  #login .form-control-otp {
+    width: 30px;
+    height: 32px;
+    margin: 4px;
+    border: 1px solid #b1b1b1;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+  }
+  #login .popup-btn {
+    width: 100%;
+    background: #442944;
+    border: none;
+    color: #fefefe;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 2.6;
+    padding: 0 18px;
+  }
+}
+
+/* / Medium devices (landscape tablets, 768px and up)  / */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* otp model  */
+
+  #login .popup-main {
+    position: absolute;
+    top: 13%;
+    right: 3%;
+    background: #fefefe;
+    padding: 40px 20px;
+    margin: 10px;
+  }
+  #login .form-control-otp {
+    width: 32px;
+    height: 34px;
+    margin: 4px;
+    border: 1px solid #b1b1b1;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+  }
+  #login .popup-btn {
+    width: 100%;
+    background: #442944;
+    border: none;
+    color: #fefefe;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 24px;
+    cursor: pointer;
+    line-height: 2.5;
+  }
+}
+
+/* / Large devices (laptops / desktops, 992px and up)  / */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #login .input-txt {
+    width: 100%;
+    padding: 0 18px;
+    line-height: 2.8;
+    line-height: 2.8;
+    border: 1px solid #b1b1b1 !important;
+    font-size: 17px;
+    border-radius: 0px;
+  }
+  #login .popup-main {
+    width: 87%;
+    position: absolute;
+    top: 10%;
+    right: 6%;
+    background: #fefefe;
+    padding: 40px 20px;
+    margin: 10px;
+  }
+  #login .form-control-otp {
+    margin: 5px;
+    width: 32px;
+    height: 35px;
+    border: 1px solid #b1b1b1;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+  }
+}
+
+/* / Extra large devices (large laptops and desktops, 1200px and up)  / */
+@media only screen and (min-width: 1200px) {
+  /* otp model  */
+  #login .popup-main {
+    width: 87%;
+    position: absolute;
+    top: 10%;
+    right: 6%;
+    background: #fefefe;
+    padding: 40px 20px;
+    margin: 10px;
+  }
+  #login .form-control-otp {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #b1b1b1;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+  }
+}
